@@ -1,0 +1,14 @@
+version: '3.4'
+services:
+  asdi:
+    image: asdi:v1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/mnt
+      - vscode:/root/.vscode-server
+    ports:
+      - '8888:8888'
+volumes:
+  vscode:
