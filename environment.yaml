@@ -1,0 +1,48 @@
+name: rub21
+channels:
+    - conda-forge
+dependencies:
+    - albumentations
+    - black
+    - boto3
+    # - cudatoolkit==11.7
+    - gcc
+    - graphviz
+    - httpx
+    - hydra-core
+    - ipykernel
+    - matplotlib
+    - pandas
+    - pip
+    - pytorch
+    - pytorch-lightning
+    - pystac-client
+    - rasterio
+    - rioxarray
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - seaborn
+    - tensorboard
+    - timm
+    - torchdata
+    - torchvision
+    - transformers
+    - xbatcher
+    - zen3geo
+    - xarray 
+    - netCDF4 
+    - bottleneck
+    - numpy
+    - pandas
+    - matplotlib
+    - jupyterlab
+    - pangeo-forge-recipes
+    - s3fs
+    - intake
+    - awscli
+    - pip:
+        - git+https://github.com/cocodataset/panopticapi.git@7bb4655548f98f3fedc07bf37e9040a992b054b0
+        - git+https://github.com/waspinator/pycococreator.git@0.2.1
+        - rio-cogeo
+        - rio-tiler-pds
